@@ -1,0 +1,43 @@
+﻿@model MvcMusicStore.Models.LoginInfoModel
+@{
+    ViewBag.Title = "管理员登录";
+    Layout = "~/Areas/Admin/Views/Shared/Admin_Layout.cshtml";
+}
+@section scripts{
+    <script type="text/javascript" src="~/Scripts/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+    <style>
+		input[type=text],input[type=password] {
+			width:265px;
+		}
+	</style>
+}
+
+<h3><em>Login</em></h3>
+
+@using(Html.BeginForm())
+{  
+    <fieldset>
+        <legend>录入管理员账户信息</legend>
+
+        <div class="editor-label">
+            @Html.LabelFor(m=>m.LoginId)
+        </div>
+        <div class="editor-field">
+            @Html.TextBoxFor(m => m.LoginId)
+			@Html.ValidationMessageFor(m=>m.LoginId)
+        </div>
+
+         <div class="editor-label">
+            @Html.LabelFor(m=>m.LoginPwd)
+        </div>
+        <div class="editor-field">
+            @Html.PasswordFor(m=>m.LoginPwd)
+			@Html.ValidationMessageFor(m=>m.LoginPwd)
+        </div>
+
+        <p>
+            <input style="width:80px;" type="submit" value="登录" class="button"/>
+        </p>
+    </fieldset>
+}

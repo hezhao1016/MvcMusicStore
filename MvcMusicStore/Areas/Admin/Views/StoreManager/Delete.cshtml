@@ -1,0 +1,20 @@
+@{
+    ViewBag.Title = "É¾³ý×¨¼­";
+    Layout = "~/Areas/Admin/Views/Shared/Admin_Layout.cshtml";
+}
+
+<h3><em>Delete Confirmation</em></h3>
+
+<p>Are you sure you want to delete the album titled 
+   <strong>@ViewBag.AlbumTitle</strong>£¿
+</p>
+
+@using(Html.BeginForm())
+{
+    <p>
+		<input style="width:80px;" type="submit" value="Delete" class="button"/>
+	</p>
+}
+<p>
+	<a class="bold" href="@Url.Action("Index")">Back to List</a>
+</p>

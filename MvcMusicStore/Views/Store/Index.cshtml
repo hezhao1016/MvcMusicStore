@@ -1,0 +1,64 @@
+﻿@model IEnumerable<MvcMusicStore.Models.Genre>
+@using MvcMusicStore.Models;
+
+@{
+	Layout = null;
+	MvcMusicStoreEntities context = new MvcMusicStoreEntities ();
+    if (Session["User"] == null && Request.Cookies["LoginId"] != null)
+    {
+        string loginId = Request.Cookies["LoginId"].Value;
+        UserInfo user = context.UserInfoes.Where(m=>m.LoginId == loginId).SingleOrDefault();
+        Session["User"] = user;
+        Session[ShoppingCart.CartSessionKey] = user.LoginId;
+    }
+
+    //获取购物车商品数量
+    int cartCount = ShoppingCart.GetCart(this.Context).GetCount();
+}
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="author" content="HeZhao"/>
+    <meta name="description" content="MvcMusicStore"/>
+    <meta name="keywords" content="MvcMusicStore,音乐商店,歌手专辑,专辑,CD"/>
+    <title>查看全部音乐种类</title>
+    <link type="text/css" href="~/Content/Site.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="container">
+        <div id="head">
+            <h1 onclick="location='@Url.Action("Index","Home")';" style="cursor:pointer;">ASP.NET MVC MUSIC STORE</h1>
+            <ul id="menu">
+                @if(Session["User"]==null)
+				{
+					<li>@Html.ActionLink("Login", "Login", "Account",null, new { title="登录"})</li>
+					<li>@Html.ActionLink("Register","Register","Account", null,new { title="注册"})</li>
+				}
+				else
+				{
+                    <li>欢迎您，@Html.ActionLink((Session["User"] as UserInfo).Name, "Index", "User",null, new { title="个人中心"})&nbsp;</li> 
+                    <li>@Html.ActionLink("Order", "Index", "Order",null, new { title="我的订单",id="CartNums"})&nbsp;</li> 
+					<li>@Html.ActionLink("Exit", "Exit", "Account",null, new { title="退出"})&nbsp;</li>   
+				}
+                <li>@Html.ActionLink("Home", "Index", "Home",null, new { title="首页"})</li>
+                <li>@Html.ActionLink("Store", "Index", "Store",null, new { title="音乐商店"})</li>
+                <li>@Html.ActionLink("Cart("+cartCount+")", "Index", "ShoppingCart",null, new { title="我的购物车"})</li>
+                <li id="last">@Html.ActionLink("Admin", "Index", "Admin/StoreManager",null, new { title="管理员入口"})</li>
+            </ul>
+        </div>
+        <div id="storeindex">
+            <p class="title">一共有 @Model.Count() 个音乐种类 </p>
+            <ul>
+               	@foreach (var g in Model)
+				{
+					<li>@Html.ActionLink(g.Name,"Browse","Store",new{id=g.GenreId},new{title=g.Description})</li>
+				}
+            </ul>
+        </div>
+        <div id="foot">build by <em>ASP.NET MVC</em></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,127 @@
+﻿@model MvcMusicStore.Models.UserInfo
+
+@{
+    ViewBag.Title = "注册";
+}
+@section scripts{
+    <link type="text/css" href="../../Content/themes/base/minified/jquery.ui.datepicker.min.css" rel="stylesheet" />    
+    <script type="text/javascript" src="~/Scripts/jquery.ui.datepicker-zh-CN.js"></script>
+    <script type="text/javascript" src="~/Scripts/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="~/Scripts/jquery.validate.plus.js"></script>   
+    <script type="text/javascript" src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+	<style>
+		input[type=text],input[type=password] {
+			width:265px;
+		}
+	</style>
+	<script type="text/javascript">
+		$(function () {
+			$("#Birthday").datepicker();
+		}); 
+	</script>
+}
+
+<h3><em>Register</em></h3>
+
+@using(Html.BeginForm())   
+{
+    <fieldset>
+        <legend>注册账户信息</legend>
+
+        <div class="editor-label">
+            @Html.LabelFor(m=>m.LoginId)
+        </div>
+        <div class="editor-field">
+            @Html.TextBoxFor(m=>m.LoginId)
+			@Html.ValidationMessageFor(m=>m.LoginId)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(m=>m.LoginPwd)
+        </div>
+        <div class="editor-field">
+			@if (Model != null && Model.LoginPwd != null)
+			{
+				@Html.PasswordFor(m=>m.LoginPwd,new{value=Model.LoginPwd})
+			}
+			else
+			{
+                @Html.PasswordFor(m => m.LoginPwd)
+			}
+			@Html.ValidationMessageFor(m=>m.LoginPwd)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(m=>m.LoginPwdConfirm)
+        </div>
+        <div class="editor-field">
+			@if (Model != null && Model.LoginPwdConfirm != null)
+			{
+                @Html.PasswordFor(m => m.LoginPwdConfirm, new { value = Model.LoginPwdConfirm })
+			}
+			else
+			{
+				@Html.PasswordFor(m=>m.LoginPwdConfirm)
+			}
+			@Html.ValidationMessageFor(m=>m.LoginPwdConfirm)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(m=>m.Name)
+        </div>
+        <div class="editor-field">
+            @Html.TextBoxFor(m=>m.Name)
+			@Html.ValidationMessageFor(m=>m.Name)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(m=>m.Address)
+        </div>
+        <div class="editor-field">
+            @Html.TextBoxFor(m=>m.Address)
+			@Html.ValidationMessageFor(m=>m.Address)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(m=>m.Birthday)
+        </div>
+        <div class="editor-field">
+            @Html.TextBoxFor(m=>m.Birthday,new{@readonly="readonly"})
+			@Html.ValidationMessageFor(m=>m.Birthday)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(m=>m.Phone)
+        </div>
+        <div class="editor-field">
+            @Html.TextBoxFor(m=>m.Phone)
+			@Html.ValidationMessageFor(m=>m.Phone)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(m=>m.Email)
+        </div>
+        <div class="editor-field">
+            @Html.TextBoxFor(m=>m.Email)
+			@Html.ValidationMessageFor(m=>m.Email)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(m=>m.SecurityCode)
+        </div>
+        <div class="editor-field">
+            @Html.TextBoxFor(m=>m.SecurityCode)
+			@Html.ValidationMessageFor(m=>m.SecurityCode)
+        </div>
+
+        <div class="editor-label">
+            <img alt="验证码图片" id="validateCode" title="看不清？点击换一个" src="@Url.Action("SecurityCode", "Account")" onclick="javascript:this.src=this.src+'?';" style="cursor:pointer;"/>
+			<a href="javascript:void(0)" onclick="javascript:document.getElementById('validateCode').src=document.getElementById('validateCode').src+'?';" >看不清换一张</a>
+		</div>
+
+        <p>
+            <input style="width:80px;" type="submit" value="提交" class="button"/>
+			<input style="width:80px;" type="reset" value="重置" class="button"/>
+        </p>
+    </fieldset>
+}

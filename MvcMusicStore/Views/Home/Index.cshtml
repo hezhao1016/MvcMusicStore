@@ -1,0 +1,23 @@
+﻿@model IEnumerable<MvcMusicStore.Models.Album>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<img src="~/Images/home-showcase.png" />
+<div id="albumlist">
+<p><em>最新专辑</em></p>
+	@foreach (var a in Model)
+	{
+		<dl>
+			<dt>
+				<a href="@Url.Action("Detail","Store",new{id=a.AlbumId})" title="@a.Title">
+					<img src="@Url.Content("~/Images/Covers/"+a.AlbumArtUrl)" alt="@a.Title" width="100" height="75" />
+				</a>
+			</dt>
+			<dd>
+				@Html.ActionLink(a.Title,"Detail","Store",new{id=a.AlbumId},new{title=a.Title})
+			</dd>
+		</dl>
+	}
+</div>

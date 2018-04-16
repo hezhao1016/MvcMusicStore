@@ -1,0 +1,84 @@
+﻿@model MvcMusicStore.Models.ShoppingCartViewModel
+
+@{
+    ViewBag.Title = "我的购物车";
+}
+@section scripts{
+    <script type="text/javascript">
+        function ChangeCount(recordId, txtCount) {
+            if ($(txtCount).val() == "" || $(txtCount).val() == " " || $(txtCount).val() == "  ") {
+                alert("请输入商品数量");
+                $(txtCount).val("1");
+            }
+            if (isNaN($(txtCount).val())) {
+                alert("请输入正确的商品数量");
+                $(txtCount).val("1");
+            }
+            if (parseInt($(txtCount).val())<1) {
+                alert("商品数量不能小于1");
+                $(txtCount).val("1");
+            }
+            $.ajax({
+                type: "post",
+                url: "@Url.Action("ChangeCount","ShoppingCart")",
+                data: "recordId=" + recordId + "&count=" + $(txtCount).val(),
+                success: function (result) {
+                    if (result != "-1") {
+                        $("#cartTotal").html("￥" + parseFloat(result).toFixed(2) + "&nbsp;&nbsp;");
+                        //改变导航栏购物车商品数量
+                        var CartNums = 0;
+                        $(".AlbumCount").each(function () {
+                            CartNums += parseInt($(this).val());
+                        });
+                        $("#CartNums").html("Cart("+CartNums+")");
+                    } else {
+                        alert("系统出现异常！");
+                    }
+                }
+            });
+        }
+    </script>
+}
+
+<h2>购物车</h2>
+
+<table class="tb">
+    <tr>
+        <th>图示</th>
+        <th>专辑名称</th>
+        <th>数量</th>
+        <th>单价</th>
+        <th>操作</th>
+    </tr>
+    @foreach (var c in Model.CartItems)
+	{
+		 <tr id="row_"+ 1>
+            <td><a href="@Url.Action("Detail", "Store", new { id =c.Album.AlbumId })">
+                <img title="@c.Album.Title" alt="@c.Album.Title" src="@Url.Content("~/Images/Covers/"+c.Album.AlbumArtUrl)" width="100" height="75"/></a></td>
+            <td>@Html.ActionLink(c.Album.Title, "Detail", "Store", new { id = c.Album.AlbumId }, new { title=c.Album.Title})</td>
+            <td id="item_"+ 1>
+                <input onblur="ChangeCount(@c.RecordId,this)" class="AlbumCount" value="@c.Count" size="2" maxlength="2"/></td>
+            <td>@c.Album.Price.ToString("c")</td>
+            <td>@Html.ActionLink("删除", "Delete", "ShoppingCart", new { id = c.RecordId },null)</td>
+        </tr>
+	}
+    @if ( Model.CartItems.Count==0)
+    {
+         <tr>
+             <td colspan="5" height="50px">
+                  @Html.ActionLink("您的购物车是空的，快去挑选您喜爱的专辑吧。","Index","Home")
+             </td>
+        </tr>
+    }
+    <tr>
+        <td colspan="3" style="text-align: right;">
+           <a href="@Url.Action("Index","Home")">继续挑选商品</a>&nbsp;&nbsp;&nbsp;&nbsp; 
+            商品金额总计：<em><strong id="cartTotal">￥@Model.CartTotal.ToString("f2")&nbsp;&nbsp;</strong></em>
+        </td>
+        <td colspan="2" style="text-align: center;">
+            <p class="button">
+                <a href="@Url.Action("Pay","CheckOut")">结算 &gt;&gt;</a>
+            </p>            
+        </td>
+    </tr>
+</table>

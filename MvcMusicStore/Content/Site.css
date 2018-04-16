@@ -1,0 +1,325 @@
+﻿body,ul,li,dl,dt,dd {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-size: 14px;
+    font-family: "Segoe UI", Verdana, Helvetica, Sans-Serif;
+    color: #232323;
+    background-color: #fbf9ef;
+}
+
+li {
+    list-style:none;
+}
+
+img {
+    border: 0px;
+}
+
+a:link, a:visited {
+    color: #8A8575;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #333333;
+    text-decoration: none;
+}
+
+a:active {
+    color: #006633;
+    text-decoration: none;
+}
+
+.title {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.err {
+    color: red;
+}
+
+.btn {
+    clear: both;
+    display: inline-block;
+    padding: 5px;
+    margin-top: 10px;
+    border: 1px;
+    background: #5e5b54;
+    color: #fff;
+    font-weight: bold;
+}
+
+.button, input[type=submit] {
+    clear: both;
+    display: inline-block;
+    padding: 5px;
+    margin-top: 10px;
+    border: 1px;
+    background: #5e5b54;
+    color: #fff;
+    font-weight: bold;
+}
+
+    .button a {
+        color: #fff !important;
+    }
+
+/* 母板视图 */
+#container {
+    width: 900px;
+    margin: auto;
+}
+
+#head {
+    width: 100%;
+    border-bottom: 1px dotted #5D5A53;
+    margin-bottom: 10px;
+    float: left;
+}
+
+    #head h1 {
+        margin: 0px;
+        padding: 0px;
+        font-size: 18px;
+        float: left;
+        background: url(/Images/logo.png) no-repeat;
+        padding: 45px 0px 5px 0px;
+    }
+
+#menu {
+    float: right;
+}
+
+    #menu li {
+        list-style-type: none;
+        float: left;
+        font-size: 18px;
+        font-weight: bold;
+        padding: 5px 10px;
+        border-right: 1px silver dashed;
+    }
+
+    #menu a {
+        color: #8A8575;
+    }
+
+        #menu a:hover {
+            color: #F6855E;
+        }
+
+    #menu #last {
+        border-right: 0px;
+    }
+
+#genres {
+    float: left;
+    width: 100px;
+    padding: 0px 25px;
+}
+
+    #genres li {
+        list-style-type: none;
+    }
+
+    #genres a:hover {
+        color: #F46739;
+    }
+
+#main {
+    float: left;
+    width: 750px;
+}
+
+#foot {
+    float:left;
+    width:100%;
+    height:30px;
+    line-height:30px;
+    margin-top:10px;
+    border-top:1px solid silver;
+    border-bottom:1px solid silver;
+    text-align:right;
+    font-weight:bold;
+}
+
+    #foot em {
+        color: #F6855E;
+    }
+
+/* dl-dt-dd显示的album列表 */
+#albumlist {
+    overflow: hidden;
+}
+
+    #albumlist em {
+        height: 40px;
+        line-height: 40px;
+    }
+
+    #albumlist dl {
+        float: left;
+        width: 120px;
+        padding: 5px;
+    }
+
+    #albumlist dt {
+        float: left;
+        width: 120px;
+        text-align: center;
+    }
+
+    #albumlist dd {
+        float: left;
+        width: 120px;
+        text-align: center;
+        height: 40px;
+        overflow: hidden;
+    }
+
+/* StoreController */
+#storeindex {
+    float: left;
+    overflow: hidden;
+}
+
+    #storeindex li {
+        list-style-type: none;
+    }
+
+    #storeindex a {
+        color: #F6855E;
+        font-weight: bold;
+    }
+
+a.bold {
+    color: #F6855E;
+    font-weight: bold;
+}
+
+/* Tables */
+.tb {
+    border: 1px solid #000;
+    border-collapse: collapse;
+    color: #666666;
+    min-width: 500px;
+    width: 100%;
+}
+
+.tb tr {
+    border: 1px solid #000;
+    line-height: 25px;
+}
+
+.tb th {
+    background-color: #9b9993;
+    color: #000;
+    font-size: 13px;
+    text-align: left;
+}
+
+.tb th, .tb td {
+    padding-left: 5px;
+}
+
+.tb tr:hover {
+    background-color: #fff;
+}
+
+/* pager */
+.pager {
+    float: left;
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin-top: 2px;
+    font-family: Arial;
+    vertical-align: middle;
+}
+
+    .pager a:link, .pager a:visited, .pager a:active {
+        font-weight: bold;
+        margin: 1px 3px;
+        padding: 0.3em 0.5em 0.2em;
+        text-align: center;
+        background: #f66;
+        border: #c00 1px solid;
+        color: #fff;
+        line-height: 25px;
+    }
+
+    .pager a:hover {
+        font-weight: bold;
+        margin: 1px 3px;
+        padding: 0.3em 0.5em 0.2em;
+        text-align: center;
+        background: #f30;
+        border: #c30 1px solid;
+        color: #fff;
+        line-height: 25px;
+    }
+
+    .pager font {
+        font-weight: bold;
+        margin: 1px 3px;
+        padding: 0.3em 0.5em 0.2em;
+        text-align: center;
+        background: #b00000;
+        border: #c30 1px solid;
+        color: #fff;
+        line-height: 25px;
+    }
+
+
+/* Styles for basic forms
+-----------------------------------------------------------*/
+fieldset {
+    border: 1px solid #ddd;
+    padding: 0 1.4em 1.4em 1.4em;
+    margin: 0 0 1.5em 0;
+}
+
+legend {
+    font-size: 1.0em;
+    font-weight: bold;
+}
+
+textarea {
+    min-height: 75px;
+}
+
+.editor-label {
+    margin: 1em 0 0 0;
+}
+
+.editor-field {
+    margin: 0.5em 0 0 0;
+}
+
+
+/* Styles for validation helpers
+-----------------------------------------------------------*/
+.field-validation-error {
+    color: #f00;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+.input-validation-error {
+    border: 1px solid #f00;
+    background-color: #fee;
+}
+
+.validation-summary-errors {
+    font-weight: bold;
+    color: #f00;
+}
+
+.validation-summary-valid {
+    display: none;
+}

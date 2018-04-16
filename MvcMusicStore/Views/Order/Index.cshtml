@@ -1,0 +1,90 @@
+﻿@model MvcMusicStore.Helpers.PagedList<MvcMusicStore.Models.Order>
+@{
+    ViewBag.Title = "我的订单";
+}
+@section scripts{
+    <script type="text/javascript">
+        $(function () {
+            $(".order_details").mouseover(function () {
+                $(this).css("color","red");
+            }).mouseout(function () {
+                $(this).css("color", "blue");
+            });
+        });
+    </script>
+}
+
+<h2>我的订单</h2>
+<table class="tb">
+    <tr>
+        <th scope="col">图示</th>
+        <th scope="col">专辑名称</th>
+        <th scope="col">数量</th>
+        <th scope="col">单价</th>
+        <th scope="col">操作</th>
+    </tr>
+    @{
+        decimal orderTotalPrices = 0;    
+    }
+    @foreach (var o in Model)
+    {
+        <tr style="background-color:#bdeee7;height:25px;">
+            <td colspan="3">
+                &nbsp;订单编号:@o.OrderId &nbsp;&nbsp;
+                订单日期:@o.OrderDate.ToString("yyyy年MM月dd日hh时mm分ss秒") &nbsp;&nbsp;
+                订单金额:￥@o.Amount.ToString("f2")&nbsp;&nbsp;
+                @Html.ActionLink("详细信息", "Detail", new { id = o.OrderId }, new { @class="order_details",style="color:blue;text-decoration:underline;" })<td>
+            <td style="text-align:center;">
+                @Html.ActionLink("删除订单", "DeleteOrder", "Order", new { id = o.OrderId }, new { onclick="return confirm('确定要删除这个订单吗么？');"})</td>
+        </tr>
+        foreach (var od in o.OrderDetails)
+        {
+            <tr id="row_"+ 1>
+                <td><a href="@Url.Action("Detail", "Store", new { id = od.Album.AlbumId })">
+                    <img src="@Url.Content("~/Images/Covers/"+@od.Album.AlbumArtUrl)" alt="@od.Album.Title" title="@od.Album.Title" width="80" height="100"/></a></td>
+                <td>@Html.ActionLink(od.Album.Title, "Detail", "Store", new { id = od.Album.AlbumId }, new { title=od.Album.Title})</td>
+                <td id="item_"+ 1>@od.Quantity</td>
+                <td>@od.UnitPrice.ToString("c")</td>
+                <td>@Html.ActionLink("删除", "DeleteOrderDetail", "Order", new { id = od.OrderDetailId }, new { onclick="return confirm('确定要删除这个子订单吗么？');"})</td>
+            </tr>
+        }
+        if (o.OrderDetails.Count == 0)
+        {
+             <tr>
+                 <td colspan="5" height="35px">
+                      商品已删除。
+                 </td>
+            </tr>
+        }
+        orderTotalPrices += o.Amount;        
+    }
+    @if ( Model.Count==0)
+    {
+         <tr>
+             <td colspan="5" height="50px">
+                  @Html.ActionLink("您还没有过订单记录，快去挑选您喜爱的专辑吧。","Index","Home")
+             </td>
+        </tr>
+    }
+    else
+    {
+        <tr>
+            <td colspan="3" align="right">
+                <a href="@Url.Action("Index","Home")">继续挑选商品</a>&nbsp;&nbsp;&nbsp;&nbsp; 
+                您的订单总金额：<em><strong>￥@ViewBag.TotalMoneys.ToString("f2")&nbsp;&nbsp;</strong></em>&nbsp;&nbsp; 
+                本页订单总金额：<em><strong id="cartTotal">￥@orderTotalPrices.ToString("f2")&nbsp;&nbsp;</strong></em>
+            </td>
+            <td align="center" colspan="2">
+                <p class="button">
+                    <a href="@Url.Action("EmptyUsersOrder", "Order")" onclick="return confirm('确定要删除所有订单记录吗？');">清空我的订单</a>
+                </p>            
+            </td>
+        </tr>
+    }
+</table>
+@if (Model.Count>0)
+{
+    <div class="pager">
+        @Html.Pager(Model)
+    </div>
+}

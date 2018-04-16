@@ -1,0 +1,38 @@
+﻿@model MvcMusicStore.Helpers.PagedList<MvcMusicStore.Models.Album>
+
+@{
+    ViewBag.Title = "根据音乐类型浏览专辑";
+}
+
+@using(Html.BeginForm())
+{
+	<p class="title">查看的类型： @ViewBag.GenreName &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		关键字：@Html.TextBox("keyword",null,new{style="width:300px;line-height:20px;"})
+		<input type="submit" value="搜索" style="width:90px;line-height:20px;" class="button"/>
+	</p>
+}
+
+<div id="albumlist">
+		@foreach (var a in Model)
+		{
+		  <dl>
+			   <dt>
+					<a href="@Url.Action("Detail","Store",new{id=a.AlbumId})" title="@a.Title">
+						<img src="@Url.Content("~/Images/Covers/"+a.AlbumArtUrl)" alt="@a.Title" width="100" height="75" /></a>
+			   </dt>
+			   <dd>
+					@Html.ActionLink(a.Title,"Detail","Store",new{id=a.AlbumId},new{title=a.Title})					
+			   </dd>
+		  </dl>
+		}
+</div>
+<div class="pager">
+    @if (Model.Count != 0)
+    {
+        @Html.Pager(Model)
+    }
+    else
+    {
+        <p>抱歉，没有找到符合条件的 @ViewBag.GenreName 类型的音乐专辑。</p>
+    }
+</div>

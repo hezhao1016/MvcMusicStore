@@ -1,0 +1,196 @@
+d:\360data\重要数据\我的文档\visual studio 2012\Projects\MvcMusicStore\MvcMusicStore\bin\MvcMusicStore.dll
+d:\360data\重要数据\我的文档\visual studio 2012\Projects\MvcMusicStore\MvcMusicStore\bin\MvcMusicStore.pdb
+d:\360data\重要数据\我的文档\visual studio 2012\Projects\MvcMusicStore\MvcMusicStore\bin\Antlr3.Runtime.dll
+d:\360data\重要数据\我的文档\visual studio 2012\Projects\MvcMusicStore\MvcMusicStore\bin\EntityFramework.dll
+d:\360data\重要数据\我的文档\visual studio 2012\Projects\MvcMusicStore\MvcMusicStore\bin\Microsoft.Web.Infrastructure.dll
+d:\360data\重要数据\我的文档\visual studio 2012\Projects\MvcMusicStore\MvcMusicStore\bin\Newtonsoft.Json.dll
+d:\360data\重要数据\我的文档\visual studio 2012\Projects\MvcMusicStore\MvcMusicStore\bin\System.Net.Http.Formatting.dll
+d:\360data\重要数据\我的文档\visual studio 2012\Projects\MvcMusicStore\MvcMusicStore\bin\System.Web.Http.dll
+d:\360data\重要数据\我的文档\visual studio 2012\Projects\MvcMusicStore\MvcMusicStore\bin\System.Web.Http.WebHost.dll
+d:\360data\重要数据\我的文档\visual studio 2012\Projects\MvcMusicStore\MvcMusicStore\bin\System.Web.Mvc.dll
+d:\360data\重要数据\我的文档\visual studio 2012\Projects\MvcMusicStore\MvcMusicStore\bin\System.Web.Optimization.dll
+d:\360data\重要数据\我的文档\visual studio 2012\Projects\MvcMusicStore\MvcMusicStore\bin\System.Web.Providers.dll
+d:\360data\重要数据\我的文档\visual studio 2012\Projects\MvcMusicStore\MvcMusicStore\bin\System.Web.Razor.dll
+d:\360data\重要数据\我的文档\visual studio 2012\Projects\MvcMusicStore\MvcMusicStore\bin\System.Web.WebPages.Deployment.dll
+d:\360data\重要数据\我的文档\visual studio 2012\Projects\MvcMusicStore\MvcMusicStore\bin\System.Web.WebPages.dll
+d:\360data\重要数据\我的文档\visual studio 2012\Projects\MvcMusicStore\MvcMusicStore\bin\System.Web.WebPages.Razor.dll
+d:\360data\重要数据\我的文档\visual studio 2012\Projects\MvcMusicStore\MvcMusicStore\bin\WebGrease.dll
+d:\360data\重要数据\我的文档\visual studio 2012\Projects\MvcMusicStore\MvcMusicStore\bin\EntityFramework.xml
+d:\360data\重要数据\我的文档\visual studio 2012\Projects\MvcMusicStore\MvcMusicStore\bin\Newtonsoft.Json.xml
+d:\360data\重要数据\我的文档\visual studio 2012\Projects\MvcMusicStore\MvcMusicStore\bin\System.Net.Http.Formatting.xml
+d:\360data\重要数据\我的文档\visual studio 2012\Projects\MvcMusicStore\MvcMusicStore\bin\System.Web.Http.xml
+d:\360data\重要数据\我的文档\visual studio 2012\Projects\MvcMusicStore\MvcMusicStore\bin\System.Web.Http.WebHost.xml
+d:\360data\重要数据\我的文档\visual studio 2012\Projects\MvcMusicStore\MvcMusicStore\bin\System.Web.Mvc.xml
+d:\360data\重要数据\我的文档\visual studio 2012\Projects\MvcMusicStore\MvcMusicStore\bin\System.Web.Razor.xml
+d:\360data\重要数据\我的文档\visual studio 2012\Projects\MvcMusicStore\MvcMusicStore\bin\System.Web.WebPages.xml
+d:\360data\重要数据\我的文档\visual studio 2012\Projects\MvcMusicStore\MvcMusicStore\bin\System.Web.WebPages.Deployment.xml
+d:\360data\重要数据\我的文档\visual studio 2012\Projects\MvcMusicStore\MvcMusicStore\bin\System.Web.WebPages.Razor.xml
+d:\360data\重要数据\我的文档\visual studio 2012\Projects\MvcMusicStore\MvcMusicStore\bin\zh-Hans\EntityFramework.resources.dll
+d:\360data\重要数据\我的文档\visual studio 2012\Projects\MvcMusicStore\MvcMusicStore\bin\zh-Hans\System.Net.Http.Formatting.resources.dll
+d:\360data\重要数据\我的文档\visual studio 2012\Projects\MvcMusicStore\MvcMusicStore\bin\zh-Hans\System.Web.Http.resources.dll
+d:\360data\重要数据\我的文档\visual studio 2012\Projects\MvcMusicStore\MvcMusicStore\bin\zh-Hans\System.Web.Http.WebHost.resources.dll
+d:\360data\重要数据\我的文档\visual studio 2012\Projects\MvcMusicStore\MvcMusicStore\bin\zh-Hans\System.Web.Mvc.resources.dll
+d:\360data\重要数据\我的文档\visual studio 2012\Projects\MvcMusicStore\MvcMusicStore\bin\zh-Hans\System.Web.Optimization.resources.dll
+d:\360data\重要数据\我的文档\visual studio 2012\Projects\MvcMusicStore\MvcMusicStore\bin\zh-Hans\System.Web.Providers.resources.dll
+d:\360data\重要数据\我的文档\visual studio 2012\Projects\MvcMusicStore\MvcMusicStore\bin\zh-Hans\System.Web.Razor.resources.dll
+d:\360data\重要数据\我的文档\visual studio 2012\Projects\MvcMusicStore\MvcMusicStore\bin\zh-Hans\System.Web.WebPages.resources.dll
+d:\360data\重要数据\我的文档\visual studio 2012\Projects\MvcMusicStore\MvcMusicStore\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+d:\360data\重要数据\我的文档\visual studio 2012\Projects\MvcMusicStore\MvcMusicStore\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
+d:\360data\重要数据\我的文档\visual studio 2012\Projects\MvcMusicStore\MvcMusicStore\obj\Debug\MvcMusicStore.csprojResolveAssemblyReference.cache
+d:\360data\重要数据\我的文档\visual studio 2012\Projects\MvcMusicStore\MvcMusicStore\obj\Debug\MvcMusicStore.dll
+d:\360data\重要数据\我的文档\visual studio 2012\Projects\MvcMusicStore\MvcMusicStore\obj\Debug\MvcMusicStore.pdb
+F:\Y2\Asp.Net MVC\贯穿案例\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\MvcMusicStore.dll
+F:\Y2\Asp.Net MVC\贯穿案例\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\MvcMusicStore.pdb
+F:\Y2\Asp.Net MVC\贯穿案例\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\Antlr3.Runtime.dll
+F:\Y2\Asp.Net MVC\贯穿案例\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\EntityFramework.dll
+F:\Y2\Asp.Net MVC\贯穿案例\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\Microsoft.Web.Infrastructure.dll
+F:\Y2\Asp.Net MVC\贯穿案例\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\Newtonsoft.Json.dll
+F:\Y2\Asp.Net MVC\贯穿案例\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\System.Net.Http.Formatting.dll
+F:\Y2\Asp.Net MVC\贯穿案例\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\System.Web.Http.dll
+F:\Y2\Asp.Net MVC\贯穿案例\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\System.Web.Http.WebHost.dll
+F:\Y2\Asp.Net MVC\贯穿案例\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\System.Web.Mvc.dll
+F:\Y2\Asp.Net MVC\贯穿案例\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\System.Web.Optimization.dll
+F:\Y2\Asp.Net MVC\贯穿案例\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\System.Web.Providers.dll
+F:\Y2\Asp.Net MVC\贯穿案例\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\System.Web.Razor.dll
+F:\Y2\Asp.Net MVC\贯穿案例\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\System.Web.WebPages.Deployment.dll
+F:\Y2\Asp.Net MVC\贯穿案例\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\System.Web.WebPages.dll
+F:\Y2\Asp.Net MVC\贯穿案例\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\System.Web.WebPages.Razor.dll
+F:\Y2\Asp.Net MVC\贯穿案例\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\WebGrease.dll
+F:\Y2\Asp.Net MVC\贯穿案例\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\EntityFramework.xml
+F:\Y2\Asp.Net MVC\贯穿案例\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\Newtonsoft.Json.xml
+F:\Y2\Asp.Net MVC\贯穿案例\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\System.Net.Http.Formatting.xml
+F:\Y2\Asp.Net MVC\贯穿案例\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\System.Web.Http.xml
+F:\Y2\Asp.Net MVC\贯穿案例\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\System.Web.Http.WebHost.xml
+F:\Y2\Asp.Net MVC\贯穿案例\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\System.Web.Mvc.xml
+F:\Y2\Asp.Net MVC\贯穿案例\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\System.Web.Razor.xml
+F:\Y2\Asp.Net MVC\贯穿案例\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\System.Web.WebPages.xml
+F:\Y2\Asp.Net MVC\贯穿案例\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\System.Web.WebPages.Deployment.xml
+F:\Y2\Asp.Net MVC\贯穿案例\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\System.Web.WebPages.Razor.xml
+F:\Y2\Asp.Net MVC\贯穿案例\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\zh-Hans\EntityFramework.resources.dll
+F:\Y2\Asp.Net MVC\贯穿案例\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\zh-Hans\System.Net.Http.Formatting.resources.dll
+F:\Y2\Asp.Net MVC\贯穿案例\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\zh-Hans\System.Web.Http.resources.dll
+F:\Y2\Asp.Net MVC\贯穿案例\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\zh-Hans\System.Web.Http.WebHost.resources.dll
+F:\Y2\Asp.Net MVC\贯穿案例\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\zh-Hans\System.Web.Mvc.resources.dll
+F:\Y2\Asp.Net MVC\贯穿案例\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\zh-Hans\System.Web.Optimization.resources.dll
+F:\Y2\Asp.Net MVC\贯穿案例\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\zh-Hans\System.Web.Providers.resources.dll
+F:\Y2\Asp.Net MVC\贯穿案例\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\zh-Hans\System.Web.Razor.resources.dll
+F:\Y2\Asp.Net MVC\贯穿案例\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\zh-Hans\System.Web.WebPages.resources.dll
+F:\Y2\Asp.Net MVC\贯穿案例\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+F:\Y2\Asp.Net MVC\贯穿案例\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
+F:\Y2\Asp.Net MVC\贯穿案例\MvcMusicStore\MvcMusicStore\MvcMusicStore\obj\Debug\MvcMusicStore.csprojResolveAssemblyReference.cache
+F:\Y2\Asp.Net MVC\贯穿案例\MvcMusicStore\MvcMusicStore\MvcMusicStore\obj\Debug\MvcMusicStore.dll
+F:\Y2\Asp.Net MVC\贯穿案例\MvcMusicStore\MvcMusicStore\MvcMusicStore\obj\Debug\MvcMusicStore.pdb
+H:\Y2\Asp.Net MVC\贯穿案例\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\MvcMusicStore.dll
+H:\Y2\Asp.Net MVC\贯穿案例\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\MvcMusicStore.pdb
+H:\Y2\Asp.Net MVC\贯穿案例\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\Antlr3.Runtime.dll
+H:\Y2\Asp.Net MVC\贯穿案例\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\EntityFramework.dll
+H:\Y2\Asp.Net MVC\贯穿案例\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\Microsoft.Web.Infrastructure.dll
+H:\Y2\Asp.Net MVC\贯穿案例\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\Newtonsoft.Json.dll
+H:\Y2\Asp.Net MVC\贯穿案例\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\System.Net.Http.Formatting.dll
+H:\Y2\Asp.Net MVC\贯穿案例\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\System.Web.Http.dll
+H:\Y2\Asp.Net MVC\贯穿案例\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\System.Web.Http.WebHost.dll
+H:\Y2\Asp.Net MVC\贯穿案例\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\System.Web.Mvc.dll
+H:\Y2\Asp.Net MVC\贯穿案例\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\System.Web.Optimization.dll
+H:\Y2\Asp.Net MVC\贯穿案例\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\System.Web.Providers.dll
+H:\Y2\Asp.Net MVC\贯穿案例\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\System.Web.Razor.dll
+H:\Y2\Asp.Net MVC\贯穿案例\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\System.Web.WebPages.Deployment.dll
+H:\Y2\Asp.Net MVC\贯穿案例\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\System.Web.WebPages.dll
+H:\Y2\Asp.Net MVC\贯穿案例\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\System.Web.WebPages.Razor.dll
+H:\Y2\Asp.Net MVC\贯穿案例\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\WebGrease.dll
+H:\Y2\Asp.Net MVC\贯穿案例\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\EntityFramework.xml
+H:\Y2\Asp.Net MVC\贯穿案例\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\Newtonsoft.Json.xml
+H:\Y2\Asp.Net MVC\贯穿案例\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\System.Net.Http.Formatting.xml
+H:\Y2\Asp.Net MVC\贯穿案例\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\System.Web.Http.xml
+H:\Y2\Asp.Net MVC\贯穿案例\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\System.Web.Http.WebHost.xml
+H:\Y2\Asp.Net MVC\贯穿案例\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\System.Web.Mvc.xml
+H:\Y2\Asp.Net MVC\贯穿案例\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\System.Web.Razor.xml
+H:\Y2\Asp.Net MVC\贯穿案例\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\System.Web.WebPages.xml
+H:\Y2\Asp.Net MVC\贯穿案例\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\System.Web.WebPages.Deployment.xml
+H:\Y2\Asp.Net MVC\贯穿案例\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\System.Web.WebPages.Razor.xml
+H:\Y2\Asp.Net MVC\贯穿案例\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\zh-Hans\EntityFramework.resources.dll
+H:\Y2\Asp.Net MVC\贯穿案例\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\zh-Hans\System.Net.Http.Formatting.resources.dll
+H:\Y2\Asp.Net MVC\贯穿案例\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\zh-Hans\System.Web.Http.resources.dll
+H:\Y2\Asp.Net MVC\贯穿案例\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\zh-Hans\System.Web.Http.WebHost.resources.dll
+H:\Y2\Asp.Net MVC\贯穿案例\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\zh-Hans\System.Web.Mvc.resources.dll
+H:\Y2\Asp.Net MVC\贯穿案例\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\zh-Hans\System.Web.Optimization.resources.dll
+H:\Y2\Asp.Net MVC\贯穿案例\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\zh-Hans\System.Web.Providers.resources.dll
+H:\Y2\Asp.Net MVC\贯穿案例\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\zh-Hans\System.Web.Razor.resources.dll
+H:\Y2\Asp.Net MVC\贯穿案例\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\zh-Hans\System.Web.WebPages.resources.dll
+H:\Y2\Asp.Net MVC\贯穿案例\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+H:\Y2\Asp.Net MVC\贯穿案例\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
+H:\Y2\Asp.Net MVC\贯穿案例\MvcMusicStore\MvcMusicStore\MvcMusicStore\obj\Debug\MvcMusicStore.csprojResolveAssemblyReference.cache
+H:\Y2\Asp.Net MVC\贯穿案例\MvcMusicStore\MvcMusicStore\MvcMusicStore\obj\Debug\MvcMusicStore.dll
+H:\Y2\Asp.Net MVC\贯穿案例\MvcMusicStore\MvcMusicStore\MvcMusicStore\obj\Debug\MvcMusicStore.pdb
+H:\Y2\Asp.Net MVC\课程项目\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\MvcMusicStore.dll
+H:\Y2\Asp.Net MVC\课程项目\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\MvcMusicStore.pdb
+H:\Y2\Asp.Net MVC\课程项目\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\Antlr3.Runtime.dll
+H:\Y2\Asp.Net MVC\课程项目\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\EntityFramework.dll
+H:\Y2\Asp.Net MVC\课程项目\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\Microsoft.Web.Infrastructure.dll
+H:\Y2\Asp.Net MVC\课程项目\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\Newtonsoft.Json.dll
+H:\Y2\Asp.Net MVC\课程项目\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\System.Net.Http.Formatting.dll
+H:\Y2\Asp.Net MVC\课程项目\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\System.Web.Http.dll
+H:\Y2\Asp.Net MVC\课程项目\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\System.Web.Http.WebHost.dll
+H:\Y2\Asp.Net MVC\课程项目\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\System.Web.Mvc.dll
+H:\Y2\Asp.Net MVC\课程项目\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\System.Web.Optimization.dll
+H:\Y2\Asp.Net MVC\课程项目\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\System.Web.Providers.dll
+H:\Y2\Asp.Net MVC\课程项目\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\System.Web.Razor.dll
+H:\Y2\Asp.Net MVC\课程项目\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\System.Web.WebPages.Deployment.dll
+H:\Y2\Asp.Net MVC\课程项目\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\System.Web.WebPages.dll
+H:\Y2\Asp.Net MVC\课程项目\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\System.Web.WebPages.Razor.dll
+H:\Y2\Asp.Net MVC\课程项目\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\WebGrease.dll
+H:\Y2\Asp.Net MVC\课程项目\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\EntityFramework.xml
+H:\Y2\Asp.Net MVC\课程项目\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\Newtonsoft.Json.xml
+H:\Y2\Asp.Net MVC\课程项目\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\System.Net.Http.Formatting.xml
+H:\Y2\Asp.Net MVC\课程项目\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\System.Web.Http.xml
+H:\Y2\Asp.Net MVC\课程项目\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\System.Web.Http.WebHost.xml
+H:\Y2\Asp.Net MVC\课程项目\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\System.Web.Mvc.xml
+H:\Y2\Asp.Net MVC\课程项目\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\System.Web.Razor.xml
+H:\Y2\Asp.Net MVC\课程项目\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\System.Web.WebPages.xml
+H:\Y2\Asp.Net MVC\课程项目\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\System.Web.WebPages.Deployment.xml
+H:\Y2\Asp.Net MVC\课程项目\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\System.Web.WebPages.Razor.xml
+H:\Y2\Asp.Net MVC\课程项目\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\zh-Hans\EntityFramework.resources.dll
+H:\Y2\Asp.Net MVC\课程项目\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\zh-Hans\System.Net.Http.Formatting.resources.dll
+H:\Y2\Asp.Net MVC\课程项目\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\zh-Hans\System.Web.Http.resources.dll
+H:\Y2\Asp.Net MVC\课程项目\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\zh-Hans\System.Web.Http.WebHost.resources.dll
+H:\Y2\Asp.Net MVC\课程项目\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\zh-Hans\System.Web.Mvc.resources.dll
+H:\Y2\Asp.Net MVC\课程项目\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\zh-Hans\System.Web.Optimization.resources.dll
+H:\Y2\Asp.Net MVC\课程项目\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\zh-Hans\System.Web.Providers.resources.dll
+H:\Y2\Asp.Net MVC\课程项目\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\zh-Hans\System.Web.Razor.resources.dll
+H:\Y2\Asp.Net MVC\课程项目\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\zh-Hans\System.Web.WebPages.resources.dll
+H:\Y2\Asp.Net MVC\课程项目\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+H:\Y2\Asp.Net MVC\课程项目\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
+H:\Y2\Asp.Net MVC\课程项目\MvcMusicStore\MvcMusicStore\MvcMusicStore\obj\Debug\MvcMusicStore.csprojResolveAssemblyReference.cache
+H:\Y2\Asp.Net MVC\课程项目\MvcMusicStore\MvcMusicStore\MvcMusicStore\obj\Debug\MvcMusicStore.dll
+H:\Y2\Asp.Net MVC\课程项目\MvcMusicStore\MvcMusicStore\MvcMusicStore\obj\Debug\MvcMusicStore.pdb
+F:\ACCP\ACCP7.0课件\Y2\ASP.NET MVC\音乐商店\MvcMusicStore\MvcMusicStore\bin\MvcMusicStore.dll
+F:\ACCP\ACCP7.0课件\Y2\ASP.NET MVC\音乐商店\MvcMusicStore\MvcMusicStore\bin\MvcMusicStore.pdb
+F:\ACCP\ACCP7.0课件\Y2\ASP.NET MVC\音乐商店\MvcMusicStore\MvcMusicStore\bin\Antlr3.Runtime.dll
+F:\ACCP\ACCP7.0课件\Y2\ASP.NET MVC\音乐商店\MvcMusicStore\MvcMusicStore\bin\EntityFramework.dll
+F:\ACCP\ACCP7.0课件\Y2\ASP.NET MVC\音乐商店\MvcMusicStore\MvcMusicStore\bin\Microsoft.Web.Infrastructure.dll
+F:\ACCP\ACCP7.0课件\Y2\ASP.NET MVC\音乐商店\MvcMusicStore\MvcMusicStore\bin\Newtonsoft.Json.dll
+F:\ACCP\ACCP7.0课件\Y2\ASP.NET MVC\音乐商店\MvcMusicStore\MvcMusicStore\bin\System.Web.Mvc.dll
+F:\ACCP\ACCP7.0课件\Y2\ASP.NET MVC\音乐商店\MvcMusicStore\MvcMusicStore\bin\System.Web.Optimization.dll
+F:\ACCP\ACCP7.0课件\Y2\ASP.NET MVC\音乐商店\MvcMusicStore\MvcMusicStore\bin\System.Web.Providers.dll
+F:\ACCP\ACCP7.0课件\Y2\ASP.NET MVC\音乐商店\MvcMusicStore\MvcMusicStore\bin\System.Web.Razor.dll
+F:\ACCP\ACCP7.0课件\Y2\ASP.NET MVC\音乐商店\MvcMusicStore\MvcMusicStore\bin\System.Web.WebPages.Deployment.dll
+F:\ACCP\ACCP7.0课件\Y2\ASP.NET MVC\音乐商店\MvcMusicStore\MvcMusicStore\bin\System.Web.WebPages.dll
+F:\ACCP\ACCP7.0课件\Y2\ASP.NET MVC\音乐商店\MvcMusicStore\MvcMusicStore\bin\System.Web.WebPages.Razor.dll
+F:\ACCP\ACCP7.0课件\Y2\ASP.NET MVC\音乐商店\MvcMusicStore\MvcMusicStore\bin\WebGrease.dll
+F:\ACCP\ACCP7.0课件\Y2\ASP.NET MVC\音乐商店\MvcMusicStore\MvcMusicStore\bin\EntityFramework.xml
+F:\ACCP\ACCP7.0课件\Y2\ASP.NET MVC\音乐商店\MvcMusicStore\MvcMusicStore\bin\Newtonsoft.Json.xml
+F:\ACCP\ACCP7.0课件\Y2\ASP.NET MVC\音乐商店\MvcMusicStore\MvcMusicStore\bin\System.Web.Mvc.xml
+F:\ACCP\ACCP7.0课件\Y2\ASP.NET MVC\音乐商店\MvcMusicStore\MvcMusicStore\bin\System.Web.Razor.xml
+F:\ACCP\ACCP7.0课件\Y2\ASP.NET MVC\音乐商店\MvcMusicStore\MvcMusicStore\bin\System.Web.WebPages.xml
+F:\ACCP\ACCP7.0课件\Y2\ASP.NET MVC\音乐商店\MvcMusicStore\MvcMusicStore\bin\System.Web.WebPages.Deployment.xml
+F:\ACCP\ACCP7.0课件\Y2\ASP.NET MVC\音乐商店\MvcMusicStore\MvcMusicStore\bin\System.Web.WebPages.Razor.xml
+F:\ACCP\ACCP7.0课件\Y2\ASP.NET MVC\音乐商店\MvcMusicStore\MvcMusicStore\bin\zh-Hans\EntityFramework.resources.dll
+F:\ACCP\ACCP7.0课件\Y2\ASP.NET MVC\音乐商店\MvcMusicStore\MvcMusicStore\bin\zh-Hans\System.Web.Mvc.resources.dll
+F:\ACCP\ACCP7.0课件\Y2\ASP.NET MVC\音乐商店\MvcMusicStore\MvcMusicStore\bin\zh-Hans\System.Web.Optimization.resources.dll
+F:\ACCP\ACCP7.0课件\Y2\ASP.NET MVC\音乐商店\MvcMusicStore\MvcMusicStore\bin\zh-Hans\System.Web.Providers.resources.dll
+F:\ACCP\ACCP7.0课件\Y2\ASP.NET MVC\音乐商店\MvcMusicStore\MvcMusicStore\bin\zh-Hans\System.Web.Razor.resources.dll
+F:\ACCP\ACCP7.0课件\Y2\ASP.NET MVC\音乐商店\MvcMusicStore\MvcMusicStore\bin\zh-Hans\System.Web.WebPages.resources.dll
+F:\ACCP\ACCP7.0课件\Y2\ASP.NET MVC\音乐商店\MvcMusicStore\MvcMusicStore\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+F:\ACCP\ACCP7.0课件\Y2\ASP.NET MVC\音乐商店\MvcMusicStore\MvcMusicStore\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
+F:\ACCP\ACCP7.0课件\Y2\ASP.NET MVC\音乐商店\MvcMusicStore\MvcMusicStore\obj\Debug\MvcMusicStore.csprojResolveAssemblyReference.cache
+F:\ACCP\ACCP7.0课件\Y2\ASP.NET MVC\音乐商店\MvcMusicStore\MvcMusicStore\obj\Debug\MvcMusicStore.dll
+F:\ACCP\ACCP7.0课件\Y2\ASP.NET MVC\音乐商店\MvcMusicStore\MvcMusicStore\obj\Debug\MvcMusicStore.pdb

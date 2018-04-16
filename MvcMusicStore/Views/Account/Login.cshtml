@@ -1,0 +1,58 @@
+﻿@model MvcMusicStore.Models.LoginInfoModel
+@{
+    ViewBag.Title = "登录";
+}
+@section scripts{
+    <script type="text/javascript" src="~/Scripts/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+    <style>
+		input[type=text],input[type=password] {
+			width:265px;
+		}
+	</style>
+}
+
+<h3><em>Login</em></h3>
+
+@using(Html.BeginForm("Login","Account",new{returnUrl=ViewBag.ReturnUrl},FormMethod.Post,null))
+{  
+    <fieldset>
+        <legend>输入账户信息</legend>
+
+        <div class="editor-label">
+            @Html.LabelFor(m=>m.LoginId)
+        </div>
+        <div class="editor-field">
+            @if (Request.Cookies["LoginId"] != null && Model == null)
+            {
+                @Html.TextBox("LoginId",Request.Cookies["LoginId"].Value)
+            }
+            else
+            {
+                @Html.TextBoxFor(m => m.LoginId)
+            }
+			@Html.ValidationMessageFor(m=>m.LoginId)
+        </div>
+
+         <div class="editor-label">
+            @Html.LabelFor(m=>m.LoginPwd)
+        </div>
+        <div class="editor-field">
+            @Html.PasswordFor(m=>m.LoginPwd)
+			@Html.ValidationMessageFor(m=>m.LoginPwd)
+        </div>
+
+        <div class="editor-label">
+			<input type="checkbox" id="autologin" name="autologin" 
+				@if(Request.Cookies["LoginId"]!=null){
+					<text>checked="checked"</text>
+				}/>
+            <label for="autologin">记住我的登录状态</label>
+        </div>
+
+        <p>
+            <input style="width:80px;" type="submit" value="登录" class="button" />&nbsp;
+			@Html.ActionLink("注册","Register","Account",null,new{@class="bold"})
+        </p>
+    </fieldset>
+}

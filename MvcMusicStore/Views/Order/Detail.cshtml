@@ -1,0 +1,45 @@
+﻿@model MvcMusicStore.Models.Order
+@{
+    ViewBag.Title = "订单详细信息";
+}
+
+<h2>订单详情</h2>
+<p>订单编号:&nbsp;&nbsp; @Model.OrderId</p>
+<p>订单日期:&nbsp;&nbsp; @Model.OrderDate.ToString("yyyy年MM月dd日hh时mm分ss秒")</p>
+<p>订单金额:&nbsp;&nbsp; ￥@Model.Amount.ToString("f2")</p>
+<p>收货地址:&nbsp;&nbsp; @Model.Address</p>
+<p>邮政编码:&nbsp;&nbsp; @Model.PostalCode</p>
+<p>联系电话:&nbsp;&nbsp; @Model.Phone</p>
+<p>电子邮件:&nbsp;&nbsp; @Model.Email</p>
+
+<table class="tb">
+    <tr>
+        <th scope="col">图示</th>
+        <th scope="col">专辑名称</th>
+        <th scope="col">数量</th>
+        <th scope="col">单价</th>
+        <th scope="col">操作</th>
+    </tr>
+    @foreach (var od in Model.OrderDetails)
+    {
+        <tr id="row_"+ 1>
+            <td><a href="@Url.Action("Detail", "Store", new { id = od.Album.AlbumId })">
+                <img src="@Url.Content("~/Images/Covers/"+@od.Album.AlbumArtUrl)" alt="@od.Album.Title" title="@od.Album.Title" width="80" height="100"/></a></td>
+            <td>@Html.ActionLink(od.Album.Title, "Detail", "Store", new { id = od.Album.AlbumId }, new { title=od.Album.Title})</td>
+            <td id="item_"+ 1>@od.Quantity</td>
+            <td>@od.UnitPrice.ToString("c")</td>
+            <td>@Html.ActionLink("删除", "DeleteOrderDetail", "Order", new { id = od.OrderDetailId }, new { onclick="return confirm('确定要删除这个子订单吗么？');"})</td>
+        </tr>
+    }
+    @if (Model.OrderDetails.Count == 0)
+    {
+            <tr>
+                <td colspan="5" height="35px">
+                    商品已删除。
+                </td>
+        </tr>
+    }
+</table>
+<p>
+    @Html.ActionLink("删除订单", "DeleteOrder", "Order", new { id = Model.OrderId }, new { onclick="return confirm('确定要删除这个订单吗么？');"})
+</p>

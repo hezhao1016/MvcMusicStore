@@ -1,0 +1,81 @@
+﻿@model MvcMusicStore.Models.Order
+
+@{
+    ViewBag.Title = "填写订单信息";
+    var payUser = Session["User"] as MvcMusicStore.Models.UserInfo;
+}
+@section scripts{
+    <script type="text/javascript" src="~/Scripts/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+}
+
+<h3><em>Pay</em></h3>
+
+@using(Html.BeginForm())
+{
+    <fieldset>
+        <legend>填写订单信息</legend>
+
+        <div class="editor-label">
+            <label for="UserId">用户名</label>
+        </div>
+        <div class="editor-field">@payUser.Name</div>
+
+        <div class="editor-label">
+            @Html.LabelFor(m=>m.Address)
+        </div>
+        <div class="editor-field">
+            @if (Model != null && Model.UserInfo!=null && Model.UserInfo.Address!=null)
+            {
+                 @Html.TextBoxFor(m=>m.Address)
+            }
+            else
+            {
+                @Html.TextBox("Address", payUser.Address)
+            }
+            @Html.ValidationMessageFor(m=>m.Address)
+        </div>
+
+       <div class="editor-label">
+            @Html.LabelFor(m=>m.PostalCode)
+        </div>
+        <div class="editor-field">
+            @Html.TextBoxFor(m=>m.PostalCode)
+            @Html.ValidationMessageFor(m=>m.PostalCode)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(m=>m.Phone)
+        </div>
+        <div class="editor-field">
+            @if (Model != null && Model.UserInfo != null && Model.UserInfo.Phone != null)
+            {
+                @Html.TextBoxFor(m => m.Phone)
+            }
+            else
+            {
+                @Html.TextBox("Phone", payUser.Phone)
+            }
+            @Html.ValidationMessageFor(m=>m.Phone)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(m=>m.Email)
+        </div>
+        <div class="editor-field">
+            @if (Model != null && Model.UserInfo != null && Model.UserInfo.Email != null)
+            {
+                @Html.TextBoxFor(m => m.Email)
+            }
+            else
+            {
+                @Html.TextBox("Email", payUser.Email)
+            }
+            @Html.ValidationMessageFor(m=>m.Email)
+        </div>
+
+        <p>
+            <input type="submit" value="提交" class="button" />
+        </p>
+    </fieldset>
+}

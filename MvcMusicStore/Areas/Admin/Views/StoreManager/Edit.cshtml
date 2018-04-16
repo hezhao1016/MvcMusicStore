@@ -1,0 +1,69 @@
+﻿@model MvcMusicStore.Models.Album
+@{
+    ViewBag.Title = "编辑";
+    Layout = "~/Areas/Admin/Views/Shared/Admin_Layout.cshtml";
+}
+@section scripts{
+    <script type="text/javascript" src="~/Scripts/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>    
+}
+
+<h3><em>Edit</em></h3>
+@using(Html.BeginForm("Edit","StoreManager",FormMethod.Post,new{enctype="multipart/form-data"}))
+{
+    <fieldset>
+		<legend>Album</legend>
+        @Html.HiddenFor(m=>m.AlbumId)
+
+		<div class="editor-label">
+            @Html.LabelFor(m=>m.GenreId)	
+		</div>
+		<div class="editor-field">
+            @Html.DropDownList("GenreId","==请选择==")
+            @Html.ValidationMessageFor(m=>m.GenreId)			
+		</div>
+
+		<div class="editor-label">
+            @Html.LabelFor(m=>m.ArtistId)	
+		</div>
+		<div class="editor-field">
+            @Html.DropDownList("ArtistId","==请选择==")
+            @Html.ValidationMessageFor(m=>m.ArtistId)			
+		</div>
+
+		<div class="editor-label">
+            @Html.LabelFor(m=>m.Title)	
+		</div>
+		<div class="editor-field">
+            @Html.TextBoxFor(m => m.Title, new { style="width:335px;"})		
+            @Html.ValidationMessageFor(m=>m.Title)			
+		</div>
+
+		<div class="editor-label">
+            @Html.LabelFor(m=>m.Price)	
+		</div>
+		<div class="editor-field">
+            @Html.TextBoxFor(m=>m.Price)		
+            @Html.ValidationMessageFor(m=>m.Price)			
+		</div>
+
+		<div class="editor-label">
+            <label for="AlbumArtUrl">封面图片</label>
+		</div>
+		<div class="editor-field">
+            @Html.HiddenFor(m=>m.AlbumArtUrl)
+            <img src="@Url.Content("~/Images/Covers/"+Model.AlbumArtUrl)" title="@Model.Title" alt="@Model.Title" width="100" height="75" />
+			<br /><br />
+            <input type="file" id="cover" name="cover" />
+            @Html.ValidationSummary(true)
+		</div>
+
+		<p>
+			<input style="width:60px;" type="submit" value="提交" class="button"/>
+            <input style="width:60px;" type="reset" value="重置" class="button"/>
+		</p>
+	</fieldset>
+}
+<p style="margin-bottom:20px;">
+    <a class="bold" href="@Url.Action("Index")">Back to List</a>
+</p>
